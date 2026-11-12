@@ -1,0 +1,15 @@
+title: '2026-11-12: a view rooted at a foreign note now follows its author''s overrides; on main, all tests pass.'
+pid: 42d09fc7-377b-411f-b58c-bd1b96954811
+body: |2-
+  Commits fb945410 (the change), dfbcb811 (integration tests) and
+  c634d897 (docs) sit on the first mind's 37453ff5, which I kept: it
+  only threads an owner through the resolver. Before them, 1e7009f2 and
+  dbc79a33 fix four integration tests that already failed on main,
+  each left behind by a deliberate earlier change (an import rule, and
+  the Emacs client's config-file variable); 'bash/all-tests.sh' failed
+  without them and passes with them. That was not my territory; Tess's
+  or the owners' of import and the clients, were they born.
+contains:
+- d96ce674-a4a2-443e-8f3c-fd4f121d0d6c
+- 36eff8f6-e850-4488-9d25-fe99022f390b
+- d2b1f4d5-602e-4be6-9861-05e783000aef

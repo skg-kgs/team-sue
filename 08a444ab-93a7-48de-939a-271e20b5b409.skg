@@ -1,7 +1,7 @@
 title: The steps
 pid: 08a444ab-93a7-48de-939a-271e20b5b409
 body: |2-
-  - Make the author's node editable, edit it, approve the fork. The clone now replaces the author's node wherever you look.
+  - Make the author's node editable, edit it, approve the fork. The clone now replaces the author's node wherever you look from a root of your own; a view rooted at the author's note still shows theirs.
   - New children of the original appear in the clone's subscribeeFolder. Take each one by moving it into the clone, or dismiss it by deleting it there.
   - For the author's later edits to the text, open the original by itself (a fresh view shows it raw) and compare by hand.
   - For anything deeper, notice it yourself, or fork that node too: one fork per node, each with its own subscription.

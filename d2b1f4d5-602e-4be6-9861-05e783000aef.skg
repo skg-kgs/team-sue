@@ -1,0 +1,7 @@
+title: How Jeff can see it work
+pid: d2b1f4d5-602e-4be6-9861-05e783000aef
+body: |2-
+  Fork a child of one of Ed's or Claude's notes that the author has also
+  forked (or use 'tests/override_substitution/fixtures-foreign-root':
+  view R, then P). A view of the author's root shows the author's fork
+  in the child's place, marked ĥ; a view of a root of his own shows his.

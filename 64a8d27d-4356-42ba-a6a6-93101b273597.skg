@@ -1,0 +1,16 @@
+title: A view follows the overrides of its root's author.
+pid: 64a8d27d-4356-42ba-a6a6-93101b273597
+body: |2-
+  Built 2026-11-12 ('override_follower_of_tree_containing' in
+  'server/dbs/in_rust_graph/override_resolution.rs'), at Jeff's request
+  in [[id:cf937aed-c55e-4dd0-8916-729d226d0d04][Let's make following foreign overrides possible.]]: a view rooted
+  at a foreign note shows what its author would see there. Under one's
+  own root, a fork included, one's own overrides are followed, as
+  before. Each top-level tree of a buffer decides for itself, so a
+  search buffer or a multi-root view can mix the two. The save's
+  overridesHere tamper check asks of the same author, so a carrier
+  honest under one root is rejected under another.
+contains:
+- ff5001fe-8347-44a8-a6c1-e71c06acd044
+- aba644bc-91c7-4d6d-81b2-bf521648b482
+- a4ad022b-258c-48c3-879d-f9c05ef61cb1

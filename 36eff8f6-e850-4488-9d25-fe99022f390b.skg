@@ -1,0 +1,6 @@
+title: What I am unsure of
+pid: 36eff8f6-e850-4488-9d25-fe99022f390b
+body: |2-
+  - A fork made under a foreign root vanishes from that view at the save: the rerender follows the author and shows the original, unedited. It is what Jeff's parenthetical asks, and a test pins it as intended, but it will look like lost work. A message at the save, or a herald on the original, might be wanted.
+  - Search buffers decide per top-level tree too, so a hit that is foreign follows its author beneath it. Untested.
+  - Nobody has watched it in Emacs; I verified it over TCP on a scratch server.

@@ -1,0 +1,7 @@
+title: 'Decided: the view does not say whose overrides it follows.'
+pid: aba644bc-91c7-4d6d-81b2-bf521648b482
+body: |2-
+  A substituted node already carries its home skgrepo's herald and the
+  overridesHere mark, which together say whose version it is, and the
+  root's own herald says whose view it is. Nothing new was drawn.
+  Unsure: one's own fork, now invisible there, says nothing at all.
