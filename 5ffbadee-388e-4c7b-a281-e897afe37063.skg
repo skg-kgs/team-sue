@@ -1,0 +1,13 @@
+title: Unintegrated content is a set difference with no memory.
+pid: 5ffbadee-388e-4c7b-a281-e897afe37063
+body: |2-
+  What a subscribee as such shows of its content is its contains, less
+  what the subscriber hides, less what the subscriber contains, compared
+  after resolving IDs ('less_what_the_subscriber_integrates' in
+  'server/refresh/goal.rs'). It is recomputed at each render; nothing
+  remembers what was new last time.
+  So the subscriber's own structure is its read receipt for the first
+  layer: a child it contains or hides counts as dealt with. That is why
+  a fresh fork shows nothing new. And it is why the trick does not
+  reach further down: below the first layer the subscriber holds
+  nothing to subtract.

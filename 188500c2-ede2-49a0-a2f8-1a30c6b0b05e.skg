@@ -1,0 +1,10 @@
+title: It is drawn only where the subscribee is drawn.
+pid: 188500c2-ede2-49a0-a2f8-1a30c6b0b05e
+body: |2-
+  An occurrence drawn editable (a view's root, among others) gets a
+  subscribeeFolder when it subscribes to anything. In it each subscribee
+  shows its unintegrated children, and its contains herald reads 'C2/8'
+  (two of eight unintegrated). The count belongs to that occurrence
+  under that subscriber. The subscriber's own headline says only 'S1':
+  nothing on it says that something is new. Under another's fork, Ed
+  saw the count 'C1/33' and none of the 33, so no way to tell which.

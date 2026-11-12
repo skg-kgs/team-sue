@@ -1,0 +1,12 @@
+title: the baseline
+pid: c5a423f1-702e-45ee-8b91-1bb28898ae93
+body: |2-
+  "New" needs a "since". The fork's trick, subtracting what one holds,
+  works for one layer only. The options, and what each costs:
+contains:
+- 42a740e0-d826-4082-aea0-a722fa8c0e5f
+- 479807fd-f09e-4929-9442-8b478ac06c14
+- 07c94861-8614-4ba0-ab09-226deaadc81d
+- 27fb19fb-ad3f-4688-865a-2c8476ff454e
+- 2bbef69a-c9f8-4efe-8a4d-7af3a43ac298
+- de846cc7-205d-4275-8a44-65b07b9a5e10

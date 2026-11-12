@@ -1,0 +1,20 @@
+title: '2026-11-12: deep subscription reports, first mission'
+pid: 2a2a8671-8183-4b80-b4a8-d2a12f940703
+body: |2-
+  Done, under "what I know": a map of following as built, the design
+  space for reporting at depth (region and baseline, five baselines,
+  what I would build), how merging through forks goes today and why it
+  is awkward, and eight questions for Jeff, each standalone.
+  Where Vic and I meet: the store of "processed" marks with fingerprints
+  is one thing for both of us. The view of another's changes is Vic's;
+  the region a subscription covers and the count it shows are mine.
+  Ed's note on consuming Jeff's changes is evidence for both of us.
+  Unsure: I ran nothing. What is drawn where, I read from
+  'server/refresh/' ('goal.rs', 'visit.rs', 'viewnodestats.rs'), not
+  from a running view.
+  Surprised: below the first layer a fork already shows the author's
+  changes; what is missing is the notice, not the content. And the
+  subscriber's own structure is already its "processed" mark for the
+  first layer.
+  The reader's journal (baseline 5) would live in the repo watcher and
+  the session stores, which suits Jesus (unborn) more than me.

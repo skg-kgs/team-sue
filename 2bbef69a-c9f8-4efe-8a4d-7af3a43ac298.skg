@@ -1,0 +1,11 @@
+title: 5. A reader's journal.
+pid: 2bbef69a-c9f8-4efe-8a4d-7af3a43ac298
+body: |2-
+  The follower's server keeps the last version it loaded of each foreign
+  node; it already reloads foreign files when they change, and Ed's
+  daemon announced such a change but had lost the old text. The baseline
+  is what this reader last had. It needs no Git on the author's side,
+  catches uncommitted work, and keeps the old text, so a report can say
+  what changed and not only that something did. It costs storage about
+  the size of the foreign data one reads, and "my server loaded it" is
+  not "I read it".

@@ -1,0 +1,12 @@
+title: A fork copies one layer and shares everything below it.
+pid: 7a983622-e1be-4ecf-ae55-0069ac90f516
+body: |2-
+  The clone C of a foreign node N copies N's title, body and the IDs of
+  N's children, then subscribes to N and overrides N ('build_fork_clone'
+  in 'server/from_text/fork.rs'). N's children are not copied: C
+  contains the very nodes N does. So everything below the first layer
+  is the author's live notes. When the author changes a grandchild, you
+  see the change in place, at once, and nothing tells you.
+  Jeff's early design, [[id:81e02908-c814-43ca-9d2f-3d1cac4e6d15][cloning involves recursive subscription]], cloned the
+  children too. The shallow fork is what makes forking cheap, and it is
+  also why following reaches one layer deep.

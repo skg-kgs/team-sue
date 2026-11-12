@@ -1,0 +1,8 @@
+title: What a subscription does not report
+pid: 5d390cf5-dae5-4865-a721-64aec9d9cf94
+body: |2-
+  - edits to the subscribee's own title or body;
+  - children the author removed (the fork still holds them);
+  - reordering;
+  - anything below the subscribee's children;
+  - and the diff view shows no foreign change at all: foreign skgrepos are read at the worktree on both sides of the straddle ('docs/diff-view.org', "Foreign skgrepos").

@@ -1,0 +1,5 @@
+title: When you fork A, is everything below it already read, or unread?
+pid: 486b58e4-cb03-4ddd-8425-694ce589311b
+body: |2-
+  Read is quiet but assumes you read it all; unread is honest but
+  reports a whole subtree at once.

@@ -1,0 +1,10 @@
+title: the region
+pid: c3f38641-3082-4cc2-9a3f-de869b5ae8d3
+body: |2-
+  What a subscription to A covers. Two candidates:
+  - the author's: what A contains now, recursively. It drops what the author removed from A even where A' still holds it.
+  - the follower's: what A' shows, recursively, with override substitution. It follows what one actually sees, but then must leave out one's own additions.
+  Either way: hides prune the walk; one's own nodes stop it; a node one
+  forked is passed through its overrider, whose subscription counts its
+  first layer; a third author's nodes are a choice; and the walk needs
+  a visited set.

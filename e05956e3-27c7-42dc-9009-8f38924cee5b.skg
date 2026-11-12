@@ -1,0 +1,6 @@
+title: Should "processed" marks be graph data in your skgrepo, or a private server-side store?
+pid: e05956e3-27c7-42dc-9009-8f38924cee5b
+body: |2-
+  As graph data they are committed and the author can see them, as you
+  asked; as a store, like the commit-readiness marks, they make no Git
+  churn and stay private.

@@ -1,0 +1,14 @@
+title: Each relation is a list in the follower's own file.
+pid: 6c4ae4c1-aad9-43c9-953d-87c93fa955c4
+body: |2-
+  'subscribesTo', 'overrides' and 'hidesFromSubs' are ID lists in the
+  subscriber's '.skg' file, beside 'contains', each record with its
+  relRepo. The author's files never learn of them. Nothing else is
+  recorded: not when the fork happened, not what N's title or body were
+  then, nothing of N's grandchildren.
+  - subscribes: N's children that C neither contains nor hides are shown under C as unintegrated.
+  - overrides: wherever N would appear as content, C is shown instead; one level deep, and only for one's own overrides. A fresh view of N itself shows N raw.
+  - hides: children of N that C deleted, so they do not come back as unintegrated.
+  A subscription need not come with an override: the subscribeeFolder
+  is writable, and a node placed in it becomes a subscribee with
+  nothing substituted.

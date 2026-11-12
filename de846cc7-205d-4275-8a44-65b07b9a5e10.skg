@@ -1,0 +1,10 @@
+title: 'What I would build: receipts over a default.'
+pid: de846cc7-205d-4275-8a44-65b07b9a5e10
+body: |2-
+  A node is new if it changed since the subscription's default baseline
+  and has no receipt matching its present state. The default is set when
+  the subscription is made, and moved forward when the reader says "all
+  of this is processed"; receipts older than it can then be dropped. The
+  default comes from 3 or 5; I lean to 5, for uncommitted work. The
+  receipts are the same store Vic needs to remember which of another's
+  changes were processed, and should be one store.
