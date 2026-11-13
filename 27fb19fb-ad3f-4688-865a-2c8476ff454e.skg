@@ -4,7 +4,7 @@ body: |2-
   For each node one has dealt with, record its ID and a hash of what one
   saw (title, body, contains). A node is new when its hash differs from
   its mark. This is Jeff's "mark another's changes processed" and Ed's
-  second wish, and the diff view's commit-readiness marks already work
+  second wish, and the diff view's processed marks already work
   this way ('docs/diff-view.org', "Marks, fingerprints and the store").
   Partial reading comes free. The cost is the birth problem: an unmarked
   node is either new (then a fresh fork reports its whole subtree) or

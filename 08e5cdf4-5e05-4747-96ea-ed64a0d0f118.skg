@@ -1,0 +1,7 @@
+title: '[[id:b023ac42-386d-436c-8555-09771a841ab0][merging another''s changes through forks today: the steps, and why it is awkward]]'
+pid: 08e5cdf4-5e05-4747-96ea-ed64a0d0f118
+body: |2-
+  Open it when someone asks how to take in another's changes, or before
+  designing a fix. Its steps are mostly those of 'docs/forks.org'; its
+  six complaints are the map above seen from the user's side, with Ed's
+  words and a link to Jeff's procedure for merging whole skgrepos.
