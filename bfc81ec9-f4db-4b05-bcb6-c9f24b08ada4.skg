@@ -1,0 +1,12 @@
+title: Tests seen passing, after the last commit.
+pid: bfc81ec9-f4db-4b05-bcb6-c9f24b08ada4
+body: |2-
+  Rust 1197 of 1197 ('cargo nextest run'; the new server cases are
+  sub-tests of 'override_substitution::all_tests', plus two unit tests and
+  'save_rerender_release::a_privacy_challenge_stops_a_perspective_switch_until_approved',
+  the test the last mission left unwritten). Emacs 492 of 492
+  ('bash/emacs-tests.sh'). Neovim 520 successes, 0 failures
+  ('bash/nvim-tests.sh'). skg-for-ai's suite: PASS. All 37 integration
+  tests pass under Emacs and under Neovim ('bash/integration-tests.sh').
+  One run by hand against a scratch server, as the 'verify' skill says,
+  showed the cycle over the socket.

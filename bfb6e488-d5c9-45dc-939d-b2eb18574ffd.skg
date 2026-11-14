@@ -1,0 +1,12 @@
+title: Commits on main, oldest first.
+pid: bfb6e488-d5c9-45dc-939d-b2eb18574ffd
+body: |2-
+  The cycle: 5df24668 server; 62a865d5 Emacs; 9a34d3ba Neovim; f2eaedb4
+  skg-for-ai; 0d4c5622 docs. The rebinding, alone: 90c142f2. The root,
+  with the reviewer's fixes to the cycle folded into its server commit:
+  ad9877b9 server; 74f04771 both clients' integration tests (the clients
+  needed no code for the root); 679208c5 skg-for-ai; 7a1d56b4 docs. The
+  root was small enough to build after the rest, in its own commits,
+  once the rest was committed. The skg-for-ai daemons on 1761, 1773 and
+  1782 run the tool's old code until restarted: they know
+  'follow-overrides', not 'override-perspective'.

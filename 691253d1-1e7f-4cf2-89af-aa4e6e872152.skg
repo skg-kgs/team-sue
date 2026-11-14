@@ -7,4 +7,5 @@ body: |2-
   the original is reinstated beside the clone, which, no longer
   warranted, vanishes; so the cursor on the clone moves to the nearest
   headline. Where a third author's override stood (A for M, say), the
-  occurrence is re-pointed and keeps its ID both ways.
+  occurrence is re-pointed and keeps its ID both ways, and so does a
+  root, which is always re-pointed.

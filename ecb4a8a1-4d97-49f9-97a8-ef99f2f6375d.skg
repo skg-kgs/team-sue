@@ -1,0 +1,11 @@
+title: 'Decided: the request keeps its name, "set overrides followed", and takes "next" or a perspective''s name.'
+pid: ecb4a8a1-4d97-49f9-97a8-ef99f2f6375d
+body: |2-
+  Only the user-facing names became Jeff's word, "perspective"; the
+  wire, the server's types and the buffers' variables still say
+  "overrides followed", since they name what a perspective is, and a
+  rename would touch every client for nothing they do. The glossary
+  entry "perspective" ties the two. The names on the wire: "root
+  authors", "user", "owner of NAME". A save may name any of them, not
+  only those in the cycle; a request to switch may name one in the
+  cycle, as skg-for-ai does, while the clients always send "next".

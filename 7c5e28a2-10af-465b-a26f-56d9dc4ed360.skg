@@ -1,0 +1,6 @@
+title: For Jeff, in three lines.
+pid: 7c5e28a2-10af-465b-a26f-56d9dc4ed360
+body: |2-
+  'C-c v o' (Neovim '<localleader>vo') now cycles the buffer's perspective: each root author's overrides, then yours, then each other author's whose overrides would change what it shows, root included; each press says "Perspective: tracy's overrides." and the mode name shows it.
+  Authors who would change nothing are skipped (the other way was to list everyone whose note is in the buffer); a root you forked no longer shows 'ĥ'; and 'skg-set-editable' is now 'C-c s e' ('<localleader>se').
+  Restart your skg server (the release binary was rebuilt) and 'M-x skg-reload' at the same time.

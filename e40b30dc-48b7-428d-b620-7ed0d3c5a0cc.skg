@@ -1,0 +1,12 @@
+title: Decisions, a line each.
+pid: e40b30dc-48b7-428d-b620-7ed0d3c5a0cc
+body: |2-
+  - "Every viewer whose view is in the buffer": the root authors' and each owner ('SkgrepoOwner': the user, or a manifest-chained foreign group) whose perspective draws the buffer otherwise; named by the first-declared skgrepo, "tracy's overrides".
+  - Order: root authors', user's, then foreign owners by the config's declaration order; a perspective that changes nothing is skipped, judged by drawing the view from it.
+  - Jeff's: recomputed at each press; "next" is the first ranked after the current one, else the root authors', so a cycle that changed still turns.
+  - Wire: the request keeps its name and takes "next", "root authors", "user" or "owner of NAME"; the answer adds '(perspective-name "...")', composed by the server so the three clients say the same; saves name the perspective as before.
+  - Mode name: "SKG:tracy's overrides", the root authors' unmarked; the clients keep the wire name and the name in the buffer.
+  - Jeff's: the root too. A root stands for its original; an author's perspective shows that author's override of it, re-pointed in place (keeps its viewnode ID and the cursor); the root authors' show the original, whose author is the root author. The view ID and the buffer's name do not change.
+  - A fork of the root no longer marks the clone '(overridesHere F)', or the root authors' would revert it to F; the docs already said such a view is re-rooted at the clone.
+  - A switched search buffer replaces its hits, which are its roots.
+  - The diff view still refuses; the root authors' still draw roots raw.

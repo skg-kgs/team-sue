@@ -6,8 +6,9 @@ body: |2-
   buffer still showed it, and the next save's tamper check would then
   judge the user's carriers against the root author's chain and refuse.
   The client's buffer is the only thing that lives as long as the text
-  it describes, so it is the authority, and a save says
-  (overrides-followed . "user"); the server stores it in the view's
+  it describes, so it is the authority, and a save names it,
+  (overrides-followed . "user") or (overrides-followed . "owner of
+  tracy"), unless it is the root authors'; the server stores it in the view's
   state so that a redraw it was not asked for (another writer's change,
   a collateral redraw, a switch of the skgrepo restriction) follows it
   too. It survives saves, those redraws, and reconnects. The precedent

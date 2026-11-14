@@ -1,0 +1,15 @@
+title: 'Decided: the perspectives are the root authors'' and each owner''s whose perspective would draw the buffer otherwise.'
+pid: de66b4cc-b99d-43cc-bd95-92a7d0f0c341
+body: |2-
+  That is what "every viewer whose view is in the buffer" was taken to
+  mean: a viewer is an author whose overrides could change what the
+  buffer shows, and his view is in it when they would. An author is the
+  code's owner ('SkgrepoOwner'): the user, every owned skgrepo together
+  (as decided below), or one foreign owner, every foreign skgrepo a
+  dependencies manifest chains together. A foreign owner is named by
+  the first of its skgrepos the config declares: "tracy's overrides";
+  Top's would read "claude-public's", or whichever of Top's skgrepos
+  Jeff's config declares first. The root's own author is a perspective
+  too where they override their own root or a node in another's tree.
+  The other reading, every author of any node drawn, would fill the
+  cycle with perspectives that all draw the same raw nodes.

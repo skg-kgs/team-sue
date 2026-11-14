@@ -1,9 +1,6 @@
-title: 'Consequence: roots are never substituted, in either choice.'
+title: 'Consequence: from the root authors'' perspective, roots are still not substituted.'
 pid: 3a6ddbba-a5a8-4ffc-a174-5310e4ed2e6c
 body: |2-
-  A root shows the node asked for, raw, and an overridden node shown raw
-  shows its own children raw, one level. So a switched view rooted at a
-  node the user has forked still shows the original and its children;
-  the user's overrides resume one level further down. Jeff's request,
-  "every node I override shows my override", read literally, includes
-  the root; this was left as built and asked of him.
+  A fresh view shows the node asked for, raw, and an overridden node
+  shown raw shows its own children raw, one level. Only another
+  perspective replaces a root (above).

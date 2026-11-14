@@ -1,0 +1,19 @@
+title: '2026-11-14, third: ''C-c v o'' cycles a view among every author whose overrides would draw it otherwise, the root included, and names each; on main.'
+pid: b3000a71-d4c0-4c90-83be-d3e44ef484ab
+body: |2-
+  Your second mission for the switch, with Jeff's two later decisions
+  (the set recomputed at each press; the root too) and his rebinding of
+  'skg-set-editable'. All built and tested in the server, both clients
+  and skg-for-ai; reviewed; 'cargo build --release' run last. The
+  decisions and their reasons are under my "A view follows the overrides
+  of its root's author, unless it is switched to another author's
+  perspective" ([[id:64a8d27d-4356-42ba-a6a6-93101b273597][that note]]).
+contains:
+- 7c5e28a2-10af-465b-a26f-56d9dc4ed360
+- bfb6e488-d5c9-45dc-939d-b2eb18574ffd
+- bfc81ec9-f4db-4b05-bcb6-c9f24b08ada4
+- 5b2c6543-4ade-4b47-95fc-88a463acecfa
+- e40b30dc-48b7-428d-b620-7ed0d3c5a0cc
+- eb048456-cb1c-4402-8a75-1567e9e6b0d0
+- e94d5cb1-3af2-4757-ab19-fe4de8663621
+- f01b01e2-e786-4d21-80e2-c8dcd5017cc6

@@ -1,0 +1,8 @@
+title: 'Consequence: a replaced root keeps the containers folder of the node it replaced.'
+pid: e7b8e4fd-3a44-4a48-a6a4-8865b53e4d47
+body: |2-
+  A fresh view draws the root's containers folder once, at opening.
+  After the root is re-pointed, the folder still lists what contains
+  the original, each drawn noWarrant, since nothing relates them to the
+  override. Switching back makes them warranted again. Clearing the
+  folder would lose it for the way back. Left so; Jeff may mind.

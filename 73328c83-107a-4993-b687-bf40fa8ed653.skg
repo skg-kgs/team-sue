@@ -1,0 +1,15 @@
+title: 'Decided: whether a perspective draws the buffer otherwise is judged by drawing it, at a render per candidate per press.'
+pid: 73328c83-107a-4993-b687-bf40fa8ed653
+body: |2-
+  The first build estimated it from the positions where substitution
+  acts, and the review found two ways that went wrong: a switch could
+  hide the very nodes that put a later author in the set, so "next"
+  skipped that author for good; and an author could join who changed
+  nothing, beneath a node shown raw. So each candidate's drawing is
+  compared, as text, with the root authors' ('view_text_from'). The
+  candidates are the user and the owners of the overriders of what
+  either the root authors' drawing or the buffer's own draws, so every
+  author found from the default is found from anywhere. Not found: an
+  author whose overrides apply only beneath a node another perspective
+  puts in place, until that perspective is shown. Unsure: the cost on
+  Jeff's large views; nothing measured it.

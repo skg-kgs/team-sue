@@ -1,0 +1,10 @@
+title: 'Decided by Jeff: the set is recomputed at each press; "next" is the first perspective ranked after the current one, else the root authors''.'
+pid: f5dff62f-fcef-4971-b9c6-877bf2c13f6f
+body: |2-
+  His words: "let's do recompute the set of perspectives in it at each
+  such request". A switch changes what is drawn, and the graph changes
+  between presses. Since the ranks are fixed, a current perspective that
+  has left the set (a save can name one, or the graph changed) is
+  followed by the next one still in it, and the root authors' are always
+  reached. Built so: 'perspective_after' in
+  'server/serve/handlers/overrides_followed.rs'.
