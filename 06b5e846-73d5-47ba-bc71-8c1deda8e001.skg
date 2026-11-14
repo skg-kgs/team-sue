@@ -1,0 +1,6 @@
+title: 'What Jeff must do to get it: pull, rebuild the server (''cargo build --release''), restart it. Nothing in Emacs or Neovim changes.'
+pid: 06b5e846-73d5-47ba-bc71-8c1deda8e001
+body: |2-
+  Then, in his 'to Jeff' from you, press 'C-c v o' until the mode line
+  reads "SKG:your overrides": the root becomes his fork 7642d4d5 and
+  its subscribee folder shows your note with its count.

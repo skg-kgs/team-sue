@@ -1,0 +1,9 @@
+title: 'For Jeff: when you switch a view''s perspective and its root becomes your fork, the folders under it are now your fork''s, including the subscribee folder whose count says how many of the original''s children you have neither filed nor hidden.'
+pid: 8db2ffb3-bf9b-44c5-9a9e-5abdcc3e24d2
+body: |2-
+  Switching back shows the original's folders again. A folder you had
+  opened there (links, aliases) is opened for the fork too.
+  Seen on a scratch server with the test fixture: Top's note's view,
+  switched to the user's, drew the fork's subscribee folder holding the
+  note with 'C1/3' (one of three children neither filed nor hidden),
+  exactly as a fresh view of the fork draws it.

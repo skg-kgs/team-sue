@@ -1,0 +1,9 @@
+title: 'What I am unsure of: three choices made for Jeff, each a child of the decision in the perspective note.'
+pid: 2ceadb8b-888e-4dd0-abd5-99ba03a6a61a
+body: |2-
+  An editable folder (aliases, overridden, subscribee) the new node
+  would leave empty is not redrawn; a write-protected root, such as a
+  search hit, is not extended and gets no default folders; the ID
+  folder is not redrawn. The second was the reviewer's catch: my first
+  version made a switched search hit editable and drew its content.
+  Fixing that opened the gap below.

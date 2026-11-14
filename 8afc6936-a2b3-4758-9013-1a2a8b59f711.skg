@@ -1,0 +1,12 @@
+title: 'For Drew: more folders are redrawn at a switch, so point inside any root folder now moves to the root at a switch, not only inside the containers folder.'
+pid: 8afc6936-a2b3-4758-9013-1a2a8b59f711
+body: |2-
+  A redrawn folder hidden in the root stays hidden, but its members are
+  drawn anew, unfolded, with new viewnode IDs. Also yours: a root
+  write-protected because the fork it was re-pointed to is editable
+  deeper in the same view stays write-protected when switched back (the
+  last child here). And the
+  subscribee as such in a fresh view of a fork is drawn write-protected
+  with no unintegrated children, only its count; I noted a guess why
+  under "It is drawn only where the subscribee is drawn" in my map, but
+  it is drawing, and yours if anyone's.

@@ -12,4 +12,13 @@ body: |2-
   way, 'C2/' and no children, both in Top's mailbox fork and in a test
   fixture where the subscriber had forked nothing. So a fresh view
   does not draw the unintegrated children this note promises; why was
-  not looked into.
+  not looked into. A clue, seen the same day in the fixture
+  'tests/override_substitution/fixtures-replaced-root-folders': a fresh
+  view of the fork J draws its subscribee L in the folder
+  write-protected, with the right count ('(unintegrated 1)') and only
+  L's containerward chain under it. That may be why, unchecked: the
+  editable-view request that a root passes to its content reaches only
+  occurrences that claim membership, not folders or their members
+  ('extend_requested_content' in 'server/refresh/editability.rs'). Since 2026-11-14 the same folder,
+  count and all, is drawn when a perspective puts the fork in a view's
+  root's place.

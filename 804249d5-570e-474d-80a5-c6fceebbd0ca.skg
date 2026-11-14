@@ -1,0 +1,11 @@
+title: 'Not mended: a multi-root view can leave a root write-protected after switching there and back.'
+pid: 804249d5-570e-474d-80a5-c6fceebbd0ca
+body: |2-
+  A view of roots L and V, V containing J (the user's fork of L) drawn
+  editable: switched to the user's, the root becomes J and is
+  write-protected, since V's J holds J's editability; switched back,
+  the root shows L, still write-protected and without content. The
+  previous build (0cde1222) had the same gap. Mending it means deciding
+  whether a re-pointed root takes editability from a deeper occurrence,
+  as a fresh view would; that is Drew's question, so I stopped. Rare:
+  it needs the fork itself drawn in the same view.

@@ -1,0 +1,9 @@
+title: 'Decided: a write-protected root stays write-protected and gets no default folders.'
+pid: b534cb5b-81a8-4fba-b56b-00c13df83ed9
+body: |2-
+  The first version of this build asked every re-pointed root to be
+  extended, and the review found it made a search hit editable, drawing
+  its content, and left it so after switching back. Only a root that was
+  editable is extended. A search hit therefore shows, switched, what a
+  search hit for its replacement shows, and nothing a fresh content view
+  would add.
