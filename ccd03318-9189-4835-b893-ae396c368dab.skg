@@ -1,0 +1,4 @@
+title: A batch Emacs never evaluates ':eval' in 'format-mode-line', even with the buffer named.
+pid: ccd03318-9189-4835-b893-ae396c368dab
+body: |2-
+  So a test of a mode-line mark built with ':eval' must evaluate the form itself.

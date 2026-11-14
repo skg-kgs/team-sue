@@ -1,0 +1,6 @@
+title: For Jeff, in three lines.
+pid: 8b4791c7-49bc-4c84-a71d-89d06717d66f
+body: |2-
+  'C-c v p' in Emacs ('<localleader>vp' in Neovim) switches the buffer between showing the overrides of whoever wrote each root and showing yours, wherever you have one; press it again to switch back.
+  It redraws the buffer, keeping point and folds, refuses while the buffer has unsaved edits, and the mode name reads "SKG:your overrides" while it shows yours; your saves keep it.
+  Restart your skg server (the release binary was rebuilt), and reload the client (M-x skg-reload, or restart Emacs or Neovim).

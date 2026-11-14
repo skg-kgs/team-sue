@@ -1,0 +1,9 @@
+title: 'Decided: in a view whose every root is the user''s, a switch to the user''s overrides is refused; a switch back never is.'
+pid: 857028c8-d9c0-4cea-960c-e903c87b2874
+body: |2-
+  There the two choices draw the same thing, so switching would only
+  plant a mode-line mark that means nothing; the refusal says the view
+  shows the user's overrides already. A view can come to have only owned
+  roots while switched (editing a foreign root forks it and makes the
+  clone the root), so the way back must stay open. A buffer of the diff
+  view, which substitutes nothing, refuses both.

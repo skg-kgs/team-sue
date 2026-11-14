@@ -1,0 +1,4 @@
+title: A buffer-level choice the server must honor is a permanent-local the client sends in every save, as 'skg-diffView-buffer-kind' and now 'skg-overrides-followed' are.
+pid: b329b170-5aac-488a-b339-2b84fb753b78
+body: |2-
+  The server forgets a connection's views on reconnect or restart, but the buffer lives on, so the client is the authority and the save carries it. Neovim needs no permanent-local: nothing resets 'vim.b' on a filetype change.

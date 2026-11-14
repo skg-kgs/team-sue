@@ -1,0 +1,4 @@
+title: A fresh view must reset any such choice wherever a client reuses a buffer.
+pid: e0d6d358-ce41-4b4a-b1dc-a00ccee0470d
+body: |2-
+  Emacs reuses one only for a search run again ('skg--display-search-results'); Neovim's 'buffer.open_org_buffer_from_text' reuses by name for every fresh view, and resets there. Missing the Emacs case was the review's one bug.

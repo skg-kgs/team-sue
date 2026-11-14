@@ -8,3 +8,5 @@ body: |2-
   Editing the root itself is different: the save makes the clone the
   view's root, and that tree then follows one's own overrides. This is
   what Jeff's parenthetical asks for, but it will surprise someone.
+  Switched to the user's overrides, the same edit shows the clone, with
+  the edit, in the original's place, which is what the switch is for.

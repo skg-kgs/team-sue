@@ -1,0 +1,6 @@
+title: 'Decided: the key is ''C-c v p'' (Neovim ''<localleader>vp''), for "perspective".'
+pid: ccbab672-a083-407e-bf46-1de2a2dd97d1
+body: |2-
+  Jeff's own word for the command was "changes my perspective". 'C-c v o'
+  was free too, but the ancestry view held it until 2026-11-13, so his
+  fingers may still reach for it there. Jeff may want another.

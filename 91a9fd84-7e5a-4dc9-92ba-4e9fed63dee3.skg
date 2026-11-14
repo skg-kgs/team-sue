@@ -1,0 +1,4 @@
+title: '''skg--send-streaming-request'' (Neovim ''send_streaming_request'' in ''rerender_all_views.lua'') serves any command answered by a message and then a rerender stream.'
+pid: 91a9fd84-7e5a-4dc9-92ba-4e9fed63dee3
+body: |2-
+  The answer's one-shot handler is the place to record what the command changed; a privacy challenge replaces the answer, so nothing is recorded then. The skgrepo restriction switch ('skg-request-repo-sets.el', 'repo_sets.lua') is the model.

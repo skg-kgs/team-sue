@@ -1,0 +1,11 @@
+title: Commits on main, oldest first.
+pid: c37565b7-47aa-4469-99e1-a3070fceb4d7
+body: |2-
+  07e3719d server; 82cf57f3 Emacs, with the integration test
+  'tests/integration/overrides-followed'; 724c899c Neovim; 0c074f47
+  docs; f990587e skg-for-ai ('follow-overrides SIDECAR user|root-authors');
+  5ee1e438 the reviewer's finding and the smaller fixes. 'cargo build
+  --release' was run last, so restart the servers on it. The skg-for-ai
+  daemons on 1761, 1773 and 1782 run the tool's old code until
+  restarted; old code drops the new sidecar field when it rewrites a
+  view, though no view of ours uses the switch yet.

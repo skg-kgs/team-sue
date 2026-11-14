@@ -1,0 +1,10 @@
+title: Tests seen passing, after the last commit.
+pid: 38851076-9a20-4fe6-8660-d51916cd1fa8
+body: |2-
+  Rust 1195 of 1195 ('cargo nextest run'; the five new server cases are
+  sub-tests of 'override_substitution::all_tests', plus one unit test).
+  Emacs 491 of 491 ('bash/emacs-tests.sh', 7 new). Neovim 520 successes,
+  0 failures ('bash/nvim-tests.sh', 9 new). skg-for-ai's suite: PASS,
+  4 new cases. Integration 'overrides-followed': PASS under Emacs and
+  under Neovim. One run by hand against a scratch server on the fixture
+  showed the whole sequence over the socket.

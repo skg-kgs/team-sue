@@ -1,0 +1,10 @@
+title: 'Consequence: switching back gives the original a new viewnode ID where the clone stood.'
+pid: 691253d1-1e7f-4cf2-89af-aa4e6e872152
+body: |2-
+  Switching to the user's re-points each substituted occurrence in
+  place, so its viewnode ID, and the cursor on it, survive. Switching
+  back takes the path an override's removal takes ('stop_substituting'):
+  the original is reinstated beside the clone, which, no longer
+  warranted, vanishes; so the cursor on the clone moves to the nearest
+  headline. Where a third author's override stood (A for M, say), the
+  occurrence is re-pointed and keeps its ID both ways.

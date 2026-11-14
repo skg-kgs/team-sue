@@ -1,0 +1,12 @@
+title: The reviewer found one bug, now fixed, and asked for more tests.
+pid: ecdb6c84-e6af-463f-9482-cb757b1ec705
+body: |2-
+  A fresh subagent reviewed 07e3719d..f990587e against Jeff's words.
+  Bug: Emacs reuses a search's buffer when the same terms are searched
+  again, and the buffer kept a switch to the user's while the server
+  drew the search afresh, so its mode line lied and its next save would
+  be refused by the tamper check. Fixed in 5ee1e438, with a test that
+  fails without the fix. Also asked for: tests that the server restores
+  the old choice when a privacy challenge stops the switch, and an Emacs
+  test of the retry after one. Not written; see below. Smaller
+  convention fixes were made. It saw no simpler design.

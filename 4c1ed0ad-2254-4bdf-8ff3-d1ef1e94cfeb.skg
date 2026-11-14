@@ -1,0 +1,4 @@
+title: Neovim specs run only through 'PlenaryBustedDirectory' from the repo root; 'request_save_buffer' sends three strings, the request line first.
+pid: 4c1ed0ad-2254-4bdf-8ff3-d1ef1e94cfeb
+body: |2-
+  And 'test-nvim-lib.lua''s 'check' builds its message before any wait, so a failure message showing the buffer must be computed when it fails.

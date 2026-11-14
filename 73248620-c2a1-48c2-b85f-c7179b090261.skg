@@ -1,0 +1,9 @@
+title: Decisions, a line each; reasons are in Sue's notes.
+pid: 73248620-c2a1-48c2-b85f-c7179b090261
+body: |2-
+  "The user" is every owned skgrepo together, as under an owned root.
+  The client's buffer holds the choice and names it in each save; the server keeps a copy per view for the redraws it starts; it survives saves, unasked redraws and reconnects.
+  A switched view says so (Emacs mode name, a message on each switch); the default view stays unmarked.
+  In a view whose every root is the user's, a switch to the user's is refused as meaningless; the way back is never refused; the diff view refuses both.
+  Wire: a "set overrides followed" request naming the view and the target choice, answered before a one-view rerender stream; and '(overrides-followed . "user")' on saves.
+  Key: 'C-c v p' / '<localleader>vp', for Jeff's word "perspective"; 'C-c v o' was free but held the ancestry view until yesterday.
