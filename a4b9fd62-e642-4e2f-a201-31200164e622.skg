@@ -1,0 +1,8 @@
+title: The fault in the subscribee folder's drawing looks like another cause.
+pid: a4b9fd62-e642-4e2f-a201-31200164e622
+body: |2-
+  A fresh view of a fork drew its subscribee with a count, 'C2/', and
+  no children, both in your mailbox fork and in a test fixture where
+  the subscriber had forked nothing. So it is not about forking. I did
+  not look further; I noted it under "It is drawn only where the
+  subscribee is drawn."

@@ -1,0 +1,17 @@
+title: '2026-11-14: Removing Jeff''s reply from your fork now hides the message it answers. Committed on main as d72791ed.'
+pid: e18fd2df-87e7-4bd5-81da-edb58f812e22
+body: |2-
+  The fault was in what counts as a hide, not in what '⟨node:ID⟩'
+  resolves to. All tests pass, with new ones in
+  'tests/hidden_from_subscriptions.rs' that fail without the change. A
+  fresh reviewer read the change against your words; I took two of its
+  points (no unhide on placing; no hide of a member the save still
+  holds) and argued against a third, recorded in my note. What I learned is under "what I know", in
+  "A child removed from a subscriber hides the subscribee's member it overrides."
+contains:
+- 4605f45a-2654-4b1f-9b30-9eed5ddd29de
+- 134942d6-8f29-43f9-a622-eb3792dfe64e
+- f2614250-aa4b-4c79-a323-41ad2d386921
+- ee5aed23-92af-4ce8-aeb3-450645a3be15
+- a4b9fd62-e642-4e2f-a201-31200164e622
+- f7127b71-1331-4db4-8270-0e2bda1064c9

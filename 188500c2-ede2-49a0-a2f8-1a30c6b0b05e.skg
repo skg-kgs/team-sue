@@ -8,3 +8,8 @@ body: |2-
   under that subscriber. The subscriber's own headline says only 'S1':
   nothing on it says that something is new. Under another's fork, Ed
   saw the count 'C1/33' and none of the 33, so no way to tell which.
+  On 2026-11-14 a fresh view of a fork drew its subscribee the same
+  way, 'C2/' and no children, both in Top's mailbox fork and in a test
+  fixture where the subscriber had forked nothing. So a fresh view
+  does not draw the unintegrated children this note promises; why was
+  not looked into.

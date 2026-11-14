@@ -1,0 +1,32 @@
+title: A child removed from a subscriber hides the subscribee's member it overrides. Since 2026-11-14.
+pid: 27c41a2f-aa93-4db5-8990-d05d5b429e7a
+body: |2-
+  Every contains list records the original; an overrider is drawn in
+  its place only where its author's overrides are followed
+  ('docs/sharing-model.org', "It round-trips to the original on save").
+  So when an author forks a member of his own
+  note's content, as Jeff does to answer under a note of Top's, his
+  note still names the original. Top placed Jeff's fork in his own fork
+  of that note and removed it, the gesture that dismisses any other
+  child, and no hide was recorded: the removed ID was in no
+  subscribee's contains, and hides were inferred by ID alone.
+  Now a removed child that is no member of a subscribee's content, but
+  overrides one, hides that member, unless the same save leaves the
+  subscriber containing it ('member_it_stands_for' in
+  'server/from_text/local_fieldintent_collection/resolve_visibility.rs').
+  The walk follows anyone's override records the skgrepo restriction
+  shows, not only one owner's: which member a child stands for is a
+  fact about the child, whichever perspective the user found it in.
+  Top met Jeff's reply in Jeff's perspective; his own fork's view draws
+  the same member raw, as his original. A reviewer argued for following
+  only the perspective's overrides; I kept anyone's, so the gesture
+  works from wherever the reply was read.
+  Placing an overrider drops no hide of its original. I built that
+  too, for symmetry, and took it out: containing the overrider does
+  not integrate the original (the child below), so the original came
+  back as unintegrated. The hide is recorded
+  against the original, because that is what the unintegrated subtraction
+  compares and where the privacy of the explaining record is read; so
+  the '1H' herald shows on the original, not on the fork.
+contains:
+- 67f2e38a-1099-4357-a521-f2ca38b3a3ca

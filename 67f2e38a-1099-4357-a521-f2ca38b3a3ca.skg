@@ -1,0 +1,9 @@
+title: '? Containing an overrider should count as integrating the original it stands for. Not built.'
+pid: 67f2e38a-1099-4357-a521-f2ca38b3a3ca
+body: |2-
+  The unintegrated subtraction still compares IDs only. After placing
+  the fork and saving, a running view still drew the subscribee with
+  'C2/', the original among the two, though the subscriber now held
+  its fork; only the removal that followed made it 'C1/2'. Making the
+  subtraction use 'member_it_stands_for' too would end that, but it
+  touches every render and the stats, so it waits for Jeff's word.
