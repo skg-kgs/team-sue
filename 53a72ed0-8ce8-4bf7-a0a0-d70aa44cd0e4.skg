@@ -1,0 +1,19 @@
+title: For Cleo
+pid: 53a72ed0-8ce8-4bf7-a0a0-d70aa44cd0e4
+body: |2-
+  '(hides ("LINE" ...))' rides save-result, after the processed summary
+  and before 'changed-headlines', present only when not empty; each
+  client shows the lines without wording them. Emacs:
+  'skg--save-hides-message' in 'elisp/skg-request-save.el', called at
+  the end of 'skg-handle-save-sexp', puts them under 'current-message';
+  test 'tests/elisp/test-skg-save-hides.el'. Neovim: one 'vim.notify'
+  at the end of 'handle_save_sexp' in 'nvim/lua/skg/save.lua'; spec
+  "skg.save hides" in 'tests/nvim/save_spec.lua'. AI reader: a dry run
+  sends the save with '(preview . "true")' and reads the new terminal
+  type 'save-preview' ('print_save_preview'), only after
+  'server_supports' finds "save preview" in the answer to "verify
+  connection", which now carries '(supports (...))'; '--yes' prints the
+  save-result's lines in 'rerendered_view_of_save'. The withheld-rerender
+  path ('release_withheld_save_rerender' and the editors' text-release
+  handlers) carries no hides. Your territory note does not yet say how a
+  save's answer reaches each client; I had to read the three handlers.

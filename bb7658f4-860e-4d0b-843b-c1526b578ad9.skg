@@ -1,0 +1,8 @@
+title: 'Decided: the server words the lines, and each client only shows them.'
+pid: bb7658f4-860e-4d0b-843b-c1526b578ad9
+body: |2-
+  So every client says the same thing, and a rule added later is worded
+  once. The other way: send each hide as data (subscriber, member,
+  subscribees, by ID) and let each client word it; the AI reader could
+  then name compact handles. It would cost three formatters and three
+  sets of tests.

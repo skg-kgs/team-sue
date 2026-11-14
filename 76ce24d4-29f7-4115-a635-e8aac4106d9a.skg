@@ -1,0 +1,9 @@
+title: 'Decided: only the AI reader hears before the save; Emacs and Neovim hear after it.'
+pid: 76ce24d4-29f7-4115-a635-e8aac4106d9a
+body: |2-
+  Before a save means a dry run, and only the AI reader has one: an
+  editor saves on a key and shows the answer at once. So the server
+  gained a preview, a save request that stops once the plan is built
+  and checked against the stale buffer, and answers 'save-preview'
+  having written nothing. The other way: a preview command in each
+  editor; the request is there for it.
