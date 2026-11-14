@@ -1,4 +1,0 @@
-title: 'His question: does a press redraw the buffer many times?'
-pid: 64405092-11f5-4957-9ac3-e7e5dd209a22
-body: |2-
-  Your buffer was always redrawn once per press, but the server drew the view in memory once more for every author who might change it, only to find which did (five drawings to show one, on the test view with three candidate authors). Now it stops at the first author who changes the view, and that drawing is the one sent, so a press is usually two drawings, with the same perspectives in the same order. Server time per press: under 1 ms on the test data's view; on a 992-headline view with four authors, 54 ms became 20 ms.

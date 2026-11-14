@@ -1,4 +1,0 @@
-title: What the folder now does
-pid: 14069e51-fa52-4d92-9b55-5b4e6898a556
-body: |2-
-  When a perspective replaces a view's root, the containers folder under it lists what contains the new root, as a fresh view of that note would, and cycling back draws the original's folder again.
