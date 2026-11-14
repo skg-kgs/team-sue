@@ -1,6 +1,0 @@
-title: 'Not reported, by choice of cost: the hides of a save whose rerender is withheld under a restriction, and what merges, restores and delete propagation add.'
-pid: 2f5122f0-69ae-4f47-a902-a2b5444a3f5a
-body: |2-
-  The first is the one a user could meet: hides written, nothing said.
-  Mending it touches 'update_views_after_save' and each client's
-  release handler.

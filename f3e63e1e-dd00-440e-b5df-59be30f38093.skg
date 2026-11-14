@@ -1,7 +1,0 @@
-title: 'What Jeff must do to get it: rebuild and restart the server, then reload the clients.'
-pid: f3e63e1e-dd00-440e-b5df-59be30f38093
-body: |2-
-  'cargo build --release' and a restart of his server on 1730; then
-  'skg-reload' in Emacs (or a restart), and a restart of Neovim. The AI
-  reader needs nothing but the new server: until then its dry run
-  prints "The server is too old to say what the save would hide".

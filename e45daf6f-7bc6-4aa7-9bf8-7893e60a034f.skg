@@ -1,8 +1,0 @@
-title: 'Surprise: a request field an older server does not know is silently ignored, so a preview sent to it would have saved for real.'
-pid: e45daf6f-7bc6-4aa7-9bf8-7893e60a034f
-body: |2-
-  I caught it only because my daemon still ran the old tool. Now the
-  tool asks "verify connection" first, which names what the server
-  supports. Any new request field with a "do not write" meaning needs
-  the same guard; the team should know, for every specialist's protocol
-  work, Cleo's most of all.

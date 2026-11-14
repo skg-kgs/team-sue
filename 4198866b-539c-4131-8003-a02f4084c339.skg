@@ -1,7 +1,0 @@
-title: I am unsure whether Emacs's echo area is the right place when a save hides many things.
-pid: 4198866b-539c-4131-8003-a02f4084c339
-body: |2-
-  Each line is a sentence with up to three titles; Jeff's titles are
-  long, so five hides make a tall echo area that the next message
-  erases. A buffer, as warnings get, would keep them. I chose the echo
-  area for brevity, as the mission asked.

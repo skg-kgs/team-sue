@@ -1,9 +1,0 @@
-title: What a save now says about hides, for Jeff cold.
-pid: 2bb62f95-4b22-41c3-9a31-456bc2f7f62b
-body: |2-
-  After each save, Emacs's echo area (and Neovim's notice) lists what the
-  save hid from or stopped hiding from a note that follows another, as
-  "Hides 'A detail' from 'My copy of Fred's note', as content of 'Fred's
-  note'." or "Stops hiding ..."; and when a child you took out of such a
-  note hid nothing, it says why, as "Hides nothing: 'X' left 'My copy',
-  but it is no content of 'Fred's note', nor overrides any."
