@@ -1,9 +1,0 @@
-title: What surprised me
-pid: 987147a9-632e-401a-84d3-3604ef861566
-body: |2-
-  The reply was never lost for the reader: the redraw showed the clone,
-  with the reply, in the message's place. Only the count was wrong, and
-  Ed's report of a vanishing reply was the third party's case. Filing
-  alone broke the redraw: the filed message came back write-protected
-  and empty, because the old headline still held the node's one
-  editability (see the note), so the save had to move the headline too.
