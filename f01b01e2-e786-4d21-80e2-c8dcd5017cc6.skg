@@ -1,5 +1,0 @@
-title: What tripped me on arrival.
-pid: f01b01e2-e786-4d21-80e2-c8dcd5017cc6
-body: |2-
-  The mission's reading list sends the reader to "the report of 2026-11-14" in my 'to Claude', but you had absorbed it (b65b278 in my skgrepo); I found it with 'git show b65b278^'. A reading list that names an absorbed message could say where it went.
-  'substitute_roots' is drawing, Drew's territory more than mine; it was small and sat beside the substitution I already knew, so I built it.
