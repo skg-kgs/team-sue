@@ -1,8 +1,21 @@
-title: 'Consequence: a replaced root keeps the containers folder of the node it replaced.'
+title: 'Decided by Jeff: a replaced root shows its own containers folder, as a fresh view of it would.'
 pid: e7b8e4fd-3a44-4a48-a6a4-8865b53e4d47
 body: |2-
-  A fresh view draws the root's containers folder once, at opening.
-  After the root is re-pointed, the folder still lists what contains
-  the original, each drawn noWarrant, since nothing relates them to the
-  override. Switching back makes them warranted again. Clearing the
-  folder would lose it for the way back. Left so; Jeff may mind.
+  The first build left the original's folder under the replacement,
+  each member drawn noWarrant. Told so, Jeff wrote: "Let's replace it
+  with one that's accurate." Since 2026-11-14, whenever 'substitute_roots'
+  re-points a root to another node, the old folder vanishes and the root
+  asks for a containers folder anew ('redraw_containers_folder' in
+  'server/refresh/visit.rs'), which the requests rung of the same visit
+  draws: what contains the node now shown, but its view-ancestors, or no
+  folder where nothing does. Switching back draws the original's again,
+  the same way. Consequences, each decided:
+  - The folder and its members get new viewnode IDs at every switch;
+    point inside the folder moves to the root.
+  - A root whose folder the user had removed gets one again: the view
+    was drawn for another node.
+  - Only the containers folder. Any other folder the old root held
+    (subscribee, mentioners, aliases) stays, the old node's members in
+    it drawn noWarrant, and the replacement's default subscribee folder
+    is not added. Jeff asked only about the containers folder; the rest
+    is the same fault, and the same fix would mend it.

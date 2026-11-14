@@ -1,0 +1,4 @@
+title: What he must do to get it
+pid: 4c6cd0c4-268c-4ab0-87e6-d3bc35a4fc2d
+body: |2-
+  Rebuild the server ('cargo build --release') and restart his servers. The clients did not change.

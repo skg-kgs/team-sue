@@ -1,0 +1,19 @@
+title: What I did not do, and what surprised me
+pid: 4ae64a17-4c15-44a4-9edd-75f2106f9541
+body: |2-
+  - The test of "owner of X" for a skgrepo that is not its owner's first
+    is still nobody's: it needs a fixture whose dependencies manifest
+    chains two foreign skgrepos, and this mission left no room.
+  - Only the containers folder is redrawn. A replaced root keeps its
+    other folders (subscribee, mentioners, aliases), the old node's
+    members drawn noWarrant, and does not get the replacement's default
+    subscribee folder. Same fault, same fix; Jeff did not ask.
+  - Every reply in which the server writes a short message pays about
+    40 ms of wall time on localhost, whatever the work: on a two-headline
+    view a press took 41 ms of wall time for under 1 ms of CPU.
+    'send_response_with_length_prefix' ('server/serve/util.rs') writes
+    the header and the payload in two writes, and Nagle's algorithm holds
+    the second until the client's delayed ACK. Not mine to change, and
+    untested with the real clients; setting TCP_NODELAY on the socket,
+    or writing header and payload in one write, would likely remove it.
+    It belongs to whoever owns the server's TCP surface.

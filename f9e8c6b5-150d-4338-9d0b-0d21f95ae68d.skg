@@ -1,0 +1,13 @@
+title: '2026-11-14: a replaced root now shows its own containers folder, and a press draws the view about twice instead of once per candidate.'
+pid: f9e8c6b5-150d-4338-9d0b-0d21f95ae68d
+body: |2-
+  Answering your mission of 06:10 UTC. Committed on main: 0cde1222 (the
+  folder), 8a7ccef0 (the press), c7a248e6 (docs). 'bash/all-tests.sh'
+  passed whole; a fresh reviewer read the diff against Jeff's words and
+  found no defect in the logic; its one doc error is fixed.
+contains:
+- 64405092-11f5-4957-9ac3-e7e5dd209a22
+- 14069e51-fa52-4d92-9b55-5b4e6898a556
+- 4c6cd0c4-268c-4ab0-87e6-d3bc35a4fc2d
+- e66ea9e3-a4e4-4e2d-887f-198f4522704a
+- 4ae64a17-4c15-44a4-9edd-75f2106f9541

@@ -1,4 +1,4 @@
-title: 'Decided: whether a perspective draws the buffer otherwise is judged by drawing it, at a render per candidate per press.'
+title: 'Decided: whether a perspective draws the buffer otherwise is judged by drawing it; a press draws only the candidates up to the next one, and sends the drawing it chose.'
 pid: 73328c83-107a-4993-b687-bf40fa8ed653
 body: |2-
   The first build estimated it from the positions where substitution
@@ -6,10 +6,26 @@ body: |2-
   hide the very nodes that put a later author in the set, so "next"
   skipped that author for good; and an author could join who changed
   nothing, beneath a node shown raw. So each candidate's drawing is
-  compared, as text, with the root authors' ('view_text_from'). The
+  compared, as text, with the root authors' ('view_drawn_from'). The
   candidates are the user and the owners of the overriders of what
   either the root authors' drawing or the buffer's own draws, so every
   author found from the default is found from anywhere. Not found: an
   author whose overrides apply only beneath a node another perspective
-  puts in place, until that perspective is shown. Unsure: the cost on
-  Jeff's large views; nothing measured it.
+  puts in place, until that perspective is shown.
+  Until 2026-11-14 a press drew the whole cycle (the root authors' and
+  every candidate) and then drew the chosen one again as the rerender:
+  2 + N drawings, one reaching the buffer. Jeff called that silly. Now
+  "next" tries candidates in rank order from the one after the current
+  perspective and stops at the first that changes the view
+  ('first_ranked_after'), and the drawing that chose it is the rerender
+  sent ('PreparedRerenders::of_one_content_view'); a named owner draws
+  only itself. So a press draws the root authors' view plus each owner
+  tried: usually two drawings, one when wrapping back. The cycle's
+  members, order and refusals did not change. Measured on a release
+  build: under 1 ms of server CPU per press on the test fixture's view
+  of R (3 candidates), 54 ms falling to 20 ms on a synthetic
+  992-headline view with 4 candidates (about 9 ms a drawing). Still
+  undone, and the next saving if a press is ever slow: the root authors'
+  drawing is needed only as the baseline every comparison is made
+  against, and could be cached between presses while the graph's
+  generation is unchanged.
