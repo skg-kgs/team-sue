@@ -1,7 +1,0 @@
-title: For Cleo
-pid: f7127b71-1331-4db4-8270-0e2bda1064c9
-body: |2-
-  The save report said "Removed: ... 'r'" and nothing about hides. Had
-  it named the hides and unhides the save would infer, or said "hides
-  nothing", you would have seen the fault at your first try. That
-  needs the server to report its inferred hides in the preview.

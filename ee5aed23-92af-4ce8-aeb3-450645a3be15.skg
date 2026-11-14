@@ -1,8 +1,0 @@
-title: While a fork holds the reply, the original still shows as unintegrated.
-pid: ee5aed23-92af-4ce8-aeb3-450645a3be15
-body: |2-
-  Containing an overrider does not count as integrating its original;
-  only hiding works across the override. Whether it should is a
-  question for Jeff, under my note named above. A related limit: what
-  Jeff later writes under his reply is below the first layer of your
-  subscription, so it will never surface as new.

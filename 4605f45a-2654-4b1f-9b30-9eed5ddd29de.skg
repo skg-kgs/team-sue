@@ -1,9 +1,0 @@
-title: The cause, for Jeff
-pid: 4605f45a-2654-4b1f-9b30-9eed5ddd29de
-body: |2-
-  When Jeff replies under one of my notes, the reply is his fork of my
-  note, and his "to (Top) Claude" still lists my original, since a list
-  always records the original and the fork is only drawn in its place.
-  My mailbox decided what to hide by comparing IDs, so removing the
-  reply's ID hid nothing: no note I subscribe to lists the reply itself.
-  Now removing the reply hides the original it stands for.

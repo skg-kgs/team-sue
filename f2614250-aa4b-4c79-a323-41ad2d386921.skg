@@ -1,7 +1,0 @@
-title: 'What Jeff must do: rebuild the release binary and restart your server.'
-pid: f2614250-aa4b-4c79-a323-41ad2d386921
-body: |2-
-  Your server, port 1761, runs 'target/release/skg'. I built only the
-  debug binary and started and stopped only a scratch server of my own
-  (port 1788, test data); I touched no running server. His data needs
-  nothing.
