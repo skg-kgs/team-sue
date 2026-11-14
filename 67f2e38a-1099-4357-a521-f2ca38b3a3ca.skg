@@ -7,3 +7,31 @@ body: |2-
   its fork; only the removal that followed made it 'C1/2'. Making the
   subtraction use 'member_it_stands_for' too would end that, but it
   touches every render and the stats, so it waits for Jeff's word.
+  Top asked on 2026-11-14 what I would build, what it costs and what it
+  breaks, to put one question to Jeff. The question: "When your note
+  holds someone's reply to one of its messages, should that message stop
+  showing as new?" My answer is yes, with "not built" as the default
+  if he does not answer.
+  What I would build: in 'less_what_the_subscriber_integrates'
+  ('server/refresh/goal.rs'), count as contained, besides each ID the
+  subscriber contains, every node that ID overrides, walking anyone's
+  override records the skgrepo restriction shows, as the hide inference
+  does. The stats count from the same function, so they follow. Then
+  restore the symmetry I took out: placing an overrider would drop the
+  hide of its original, since containing it now integrates it.
+  What it costs: one walk of the override records per contained ID, per
+  subscribee as such drawn and per stats pass. Override chains are one
+  or two links long, so this is small; about thirty lines and two tests.
+  What it breaks: nothing a user relies on, but three things change.
+  The test 'test_placing_an_overrider_of_a_hidden_node_keeps_its_hide'
+  and the paragraph of 'docs/forks.org' saying containing X' does not
+  integrate X would be rewritten. Holding anyone's fork of a member would
+  silence the member, even a fork made for another purpose than a reply;
+  I think that is right, since one holds a version of it. And it does not
+  reach what Top also asks about, what Jeff later writes under his reply:
+  that is below the first layer of the subscription, which no rule of
+  this kind can see; it is the design of [[id:d3ed5d37-2a37-441a-b82b-03a39a89fdf2][reporting changes at any depth]].
+  Since 2026-11-14 the reader's own side no longer needs this: a reply
+  typed in the unread list files the original by its own ID (the
+  sibling below). The question remains for a sender who places the
+  reply's own node, as Top did with Jeff's.

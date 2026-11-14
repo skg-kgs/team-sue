@@ -4,6 +4,7 @@ body: |2-
   To take an unintegrated child, move it into the fork's content; to
   dismiss it, delete it from the subscribee as such, which records a
   hide. Both write the fork's file. There is no third answer, "seen;
-  leave it where it is".
+  leave it where it is". Writing in a child takes it too (below).
 contains:
 - 27c41a2f-aa93-4db5-8990-d05d5b429e7a
+- 3a78f299-d464-4862-82f5-bc06fbc38a22

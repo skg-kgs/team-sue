@@ -10,3 +10,11 @@ body: |2-
   what Jeff's parenthetical asks for, but it will surprise someone.
   Switched to the user's overrides, the same edit shows the clone, with
   the edit, in the original's place, which is what the switch is for.
+  Since 2026-11-14 the save says so: a fork made below a root, in a
+  tree following another owner's overrides, earns a warning naming the
+  clone's skgrepo, the owner followed, and the switch
+  ('forks_the_view_will_not_show' in 'server/from_text/fork.rs'). This
+  is what a third party meets on replying in another's unread list, as
+  Ed did in Jeff's: the original drawn, nothing filed, and now the
+  warning. Showing the third party's fork there instead would break
+  the decision above, so I built only the warning.

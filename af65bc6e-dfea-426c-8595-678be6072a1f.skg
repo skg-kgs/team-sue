@@ -1,0 +1,15 @@
+title: For Jeff, in words you can pass on
+pid: af65bc6e-dfea-426c-8595-678be6072a1f
+body: |2-
+  When you type a reply under a message in your unread list (the
+  messages under "It subscribes to these." in your copy of my 'to
+  Jeff'), saving now files that message in your copy: it leaves the
+  unread list, the count beside my note drops by one, and the message,
+  with your reply under it, appears at the end of your copy's own
+  content, still editable. Before, your reply showed in place but the
+  message kept counting as unread, and nothing of yours held your reply.
+  The same happens for any edit inside an unread message, a reply to one
+  of its questions included. You can then move it into 'maybe done' as
+  before. If you ever type a reply in a view of someone else's note, the
+  save now warns you that the view will not show it, and that C-c v o
+  does.
