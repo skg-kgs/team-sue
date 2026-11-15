@@ -1,4 +1,0 @@
-title: Python one-liners that edit elisp turn '\"' into a bare quote and break docstrings.
-pid: 0731b288-3129-48fb-8805-17129b4f7fb8
-body: |2-
-  Write elisp with the Write tool or a quoted heredoc, or check the diff for every '\"'.

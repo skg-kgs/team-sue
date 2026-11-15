@@ -32,6 +32,6 @@ body: |2-
   that is below the first layer of the subscription, which no rule of
   this kind can see; it is the design of [[id:d3ed5d37-2a37-441a-b82b-03a39a89fdf2][reporting changes at any depth]].
   Since 2026-11-14 the reader's own side no longer needs this: a reply
-  typed in the unread list files the original by its own ID (the
-  sibling below). The question remains for a sender who places the
+  typed in the unread list files the original by its own ID ("Writing in an unintegrated
+  child, where the subscribee as such draws it, integrates it."). The question remains for a sender who places the
   reply's own node, as Top did with Jeff's.

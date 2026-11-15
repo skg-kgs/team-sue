@@ -1,4 +1,0 @@
-title: 'skg-for-ai: every path that saves or rewrites a view must carry the sidecar''s ''overrides_followed''.'
-pid: 57c5323e-b072-4d24-8047-c6f85ecf1a5e
-body: |2-
-  'write_view_files' rebuilds the sidecar from the view dict, so 'rerendered_view_of_save', the daemon's 'rewrite_rerendered_view' and 'follow-overrides' each copy it, and every save passes 'overrides_followed_of_sidecar'. A request that needs the server to hold a view uses 'register_view_by_saving_it_unchanged', as 'extend' does. A new sidecar command goes in 'SIDECAR_COMMANDS'. Running daemons keep the code they started with.

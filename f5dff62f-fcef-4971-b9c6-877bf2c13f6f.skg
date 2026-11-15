@@ -6,5 +6,5 @@ body: |2-
   between presses. Since the ranks are fixed, a current perspective that
   has left the set (a save can name one, or the graph changed) is
   followed by the next one still in it, and the root authors' are always
-  reached. Built so: 'perspective_after' in
+  reached. Built so: 'first_ranked_after' in
   'server/serve/handlers/overrides_followed.rs'.

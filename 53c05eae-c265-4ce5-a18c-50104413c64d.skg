@@ -1,8 +1,0 @@
-title: Not done, and what I am unsure of.
-pid: 53c05eae-c265-4ce5-a18c-50104413c64d
-body: |2-
-  - No test makes a privacy challenge stop a switch; the server's restore of the old choice there, and each client's retry, are read, not tested (Neovim's retry is tested).
-  - Roots are never substituted, so a switched view rooted at a node Jeff forked still shows the original root and its children raw. His words, "every node I override", could include the root; left as built, and worth asking him.
-  - Switching back gives the original a new viewnode ID where his clone stood, so point there moves to the nearest headline.
-  - The clients record the choice when the server's answer arrives, just before the redraw; a redraw that failed in the client would leave the buffer claiming the user's choice over the old drawing. The reviewer rated this low.
-  - Neovim marks nothing by default (it has no statusline of its own); Jeff may want one.
