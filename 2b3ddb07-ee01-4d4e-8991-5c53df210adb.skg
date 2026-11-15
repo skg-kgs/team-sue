@@ -1,0 +1,5 @@
+title: 'Where it lives: in the fork''s ''.skg'' file beside ''subscribesTo'', committed and readable by anyone who reads the file, or in a store of the follower''s server.'
+pid: 2b3ddb07-ee01-4d4e-8991-5c53df210adb
+body: |2-
+  Jeff's to choose; it is my design's question "Should processed marks
+  be graph data in your skgrepo, or a private server-side store?"

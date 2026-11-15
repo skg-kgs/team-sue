@@ -1,0 +1,10 @@
+title: '? Record, in each fork, a fingerprint of the original it copied. Not plan-complete: four choices are open, two of them Jeff''s.'
+pid: 52dfce32-ca0f-45fe-8b09-e24e083536c8
+body: |2-
+  At fork time, keep with the subscription a hash of what the original
+  was: its title, body and contains. Then "the original changed since I
+  forked it" is one comparison, and the fork is its own first receipt.
+contains:
+- 849023a2-c918-443a-8d9e-024912b897c0
+- 189f4b5d-4483-46ec-9a7b-0a5f1830d601
+- 0f4e2226-f42e-4fa2-984e-1f85fe874e4d

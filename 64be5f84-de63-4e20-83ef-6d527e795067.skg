@@ -1,0 +1,15 @@
+title: Federated wiki records when and whence a page was forked; skg records neither, so a fork holds no baseline of its own.
+pid: 64be5f84-de63-4e20-83ef-6d527e795067
+body: |2-
+  Its client shows a page's "twins", the pages of the same title on
+  other sites it knows of, binned newer, same or older by comparing
+  each one's last edit date with this page's last edit that was not a
+  fork, up to eight flags a bin. That one signal, newer or not, with no
+  count and no diff, is all a system built wholly on forking showed of
+  other copies for a decade. skg's perspective switch already does the
+  better half of twins, by ID instead of title: it cycles among the
+  authors whose forks would change the buffer. What skg lacks is
+  "newer": 'build_fork_clone' records no time and no state of the
+  original, and no node in skg has a date ('RelPartner' is a relRepo and
+  a member; checked 2026-11-15). The action that would mend it:
+  [[id:52dfce32-ca0f-45fe-8b09-e24e083536c8][Record, in each fork, a fingerprint of the original it copied.]]
