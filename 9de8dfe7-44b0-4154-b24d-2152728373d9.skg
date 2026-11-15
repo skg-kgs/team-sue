@@ -1,14 +1,15 @@
 title: following, as built
 pid: 9de8dfe7-44b0-4154-b24d-2152728373d9
 body: |2-
-  How one graph follows another today, as of 2026-11-14. The code is
+  How one graph follows another today, as of 2026-11-15. The code is
   the authority; this says what it cannot say cheaply. The user's
   walkthroughs are 'docs/forks.org' and 'docs/sharing-model.org'.
   What is drawn where was read from 'server/refresh/'. Only the
   substitution under a foreign root and of a root itself, from each of
   three perspectives, has been seen in a running view (2026-11-14, in
-  both clients, on the fixture of 'tests/integration/overrides-followed');
-  the rest of this map has not, but where a note below says what a
+  both clients, on the fixture of 'tests/integration/overrides-followed'),
+  and the taking back of a fork under another's note (2026-11-15, on a
+  scratch server); the rest of this map has not, but where a note below says what a
   running view drew.
 contains:
 - 7a983622-e1be-4ecf-ae55-0069ac90f516

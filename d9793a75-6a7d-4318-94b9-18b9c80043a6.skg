@@ -16,7 +16,4 @@ body: |2-
   the user's, as an unread member, the deletion counts as writing in
   it, so the note is filed and its headline moves, as it did before.
   Surprised: deleting the reply first, Ed's workaround, did not help:
-  the childless fork's deletion still asked to fork. And the home note's
-  "reading and writing the graph" says only 'save' and 'commit' refuse
-  '--out-dir', but 'override-perspective' refuses it too; that note is
-  in claude-public, yours to mend.
+  the childless fork's deletion still asked to fork.
