@@ -1,8 +1,0 @@
-title: 2. Fork deeply, as Jeff first planned.
-pid: 479807fd-f09e-4929-9442-8b478ac06c14
-body: |2-
-  Every descendant becomes a clone with its own subscription, so every
-  level has a first-layer baseline. It costs a file per node of the
-  subtree at fork time, puts one's clones in place of the author's notes
-  everywhere (what Ed disliked), and still reports only new children,
-  not edits.

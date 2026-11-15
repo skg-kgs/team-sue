@@ -1,9 +1,0 @@
-title: 'Decided: an editable folder the new node would leave empty is not redrawn.'
-pid: 17458936-abb5-4254-b4c5-a4358429a8a9
-body: |2-
-  An empty subscribee, overridden or alias folder says the user asked
-  for it, to type into. Redrawing one for a node with no members there
-  would plant that claim; and switching a search hit back would have
-  grown an empty overridden folder the hit never had. The cost: a user
-  who had asked for an empty alias folder on the original loses it after
-  cycling through a node that has none.

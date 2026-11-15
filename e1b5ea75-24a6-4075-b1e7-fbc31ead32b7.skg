@@ -1,5 +1,0 @@
-title: It gives the read receipts of my design a default for the first layer, so a fresh fork reports nothing and a later change is never missed.
-pid: e1b5ea75-24a6-4075-b1e7-fbc31ead32b7
-body: |2-
-  That is the birth problem of option 4 in
-  [[id:d3ed5d37-2a37-441a-b82b-03a39a89fdf2][reporting changes at any depth]], solved for the first layer only.

@@ -1,5 +1,0 @@
-title: 'Decided: Emacs adds the lines to the echo area below what the save already said; Neovim notifies them as one message.'
-pid: 755e5332-4916-405c-89f6-a81d770d4efc
-body: |2-
-  The other way: a buffer, as warnings get. A save that hides several
-  things makes the echo area tall.

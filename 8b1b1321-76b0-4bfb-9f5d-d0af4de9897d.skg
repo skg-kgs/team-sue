@@ -1,9 +1,0 @@
-title: 'Decided: "the user" is every owned skgrepo together.'
-pid: 8b1b1321-76b0-4bfb-9f5d-d0af4de9897d
-body: |2-
-  Exactly as under an owned root: an overrider counts as the user's if
-  its home skgrepo is owned, whichever owned skgrepo that is. Override
-  monogamy is already checked across all owned data, so the owned
-  overriders of a node form one chain, and following "the most private
-  shown skgrepo" or one chosen skgrepo would only show less of it. The
-  skgrepo restriction still hides what it hides.

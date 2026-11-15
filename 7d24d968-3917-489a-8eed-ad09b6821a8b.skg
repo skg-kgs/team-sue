@@ -1,5 +1,0 @@
-title: 'Decided: "Stops hiding" rather than "Unhides", and a clone is "the fork ''T''".'
-pid: 7d24d968-3917-489a-8eed-ad09b6821a8b
-body: |2-
-  A clone keeps its original's title, so a forking edit's hide read
-  "Hides 'X' from 'T', as content of 'T'" until the review caught it.

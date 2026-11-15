@@ -1,8 +1,0 @@
-title: 'Decided: a switch to a perspective that would draw the view as the root authors'' do is refused, and so is "next" where no other perspective would; a switch back never is.'
-pid: 857028c8-d9c0-4cea-960c-e903c87b2874
-body: |2-
-  Switching would only plant a mode-line mark that means nothing. A
-  view can lose every other perspective while switched (the graph
-  changes, or editing a foreign root forks it and makes the clone the
-  root), so the way back must stay open. A buffer of the diff view,
-  which substitutes nothing, refuses every switch.

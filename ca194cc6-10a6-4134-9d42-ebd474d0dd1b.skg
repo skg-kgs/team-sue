@@ -1,9 +1,0 @@
-title: '[[id:d3ed5d37-2a37-441a-b82b-03a39a89fdf2][reporting changes below a subscription''s first layer: a design, not built, with eight questions for Jeff]]'
-pid: ca194cc6-10a6-4134-9d42-ebd474d0dd1b
-body: |2-
-  Jeff's wish that a subscription to A say when something below A's own
-  children changes, and Ed's wish to see what changed in another's
-  skgrepo. Open it before building or deciding anything about what a
-  follower is told has changed, or about marking another's changes
-  processed: it holds the five possible baselines and their costs, the
-  one I would build, and the questions, two of which Vic's graph asks too.

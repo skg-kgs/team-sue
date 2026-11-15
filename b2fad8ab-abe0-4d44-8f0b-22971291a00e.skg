@@ -1,9 +1,0 @@
-title: 'Decided: every hide the plan writes is reported, not only those inferred from a removal.'
-pid: b2fad8ab-abe0-4d44-8f0b-22971291a00e
-body: |2-
-  The lines compare each subscriber the plan writes with the graph, so a
-  hidden folder's edit, a subscribee-folder gesture and a forking edit
-  are reported too, which is what the plan will in fact write. The
-  other way: report from inside the inference ('resolve_visibility.rs'),
-  which would miss the forking edit's hides and repeat the
-  inference's own logic.
