@@ -1,0 +1,10 @@
+title: In a subscribee folder, deleting one's fork drawn in a member's place still hides the member, as before.
+pid: 21d9d790-560a-49b2-a295-afd3d0d84915
+body: |2-
+  The subscriber whose folder it is is the user's, so the old reading
+  stands: the deletion removes the member from what the subscriber
+  shows, which is a hide. Nor does such a deletion file the member,
+  though it is an edit "written in" it. The other way: let the
+  deletion dismiss nothing, so that taking back a reply in the unread
+  list leaves the message unread; built first, and taken out with the
+  owned-parent case above, for the same reason.

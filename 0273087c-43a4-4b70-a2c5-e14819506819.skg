@@ -1,0 +1,25 @@
+title: 'For Terry: under a parent the user does not own, a child marked for deletion that carries ''(overridesHere N)'' still stands for N in the parent''s contains. In your ''local_fieldintent_collection'', since 2026-11-15.'
+pid: 0273087c-43a4-4b70-a2c5-e14819506819
+body: |2-
+  'content_members' in 'traverse.rs' takes such a child as N when the
+  parent occurrence's home skgrepo is not owned, by the predicate
+  'deleted_overrider_keeps_its_original' in 'predicates.rs'. So
+  deleting a drawn overrider under another's note no longer edits that
+  note's contains, and the save no longer asks to fork it; only a
+  removed headline does. Under an owned parent, and in
+  'visible_content_members' (a subscriber's hides), nothing changed.
+  For this the traversal takes the user's ownership of skgrepos as a
+  parameter, 'IsOwned', threaded through every visit function; its
+  callers pass 'SkgConfig::skgrepo_is_owned', and the unit tests in
+  'tests/new/local_fieldintent_collection/' pass '&|_| true', all owned,
+  which keeps their old meaning. Filing
+  ('server/from_text/file_what_is_written_in.rs') still asks
+  'occurrence_child_counts_as_content', so such a deletion files
+  nothing. 'claiming_children_have_distinct_gnids' already counted the
+  child as N, so N beside its own deleted overrider under one parent is
+  refused as a duplicate, as before. Sue's mind built it at Top's
+  request, from Ed's finding, because the fault showed in forks. The
+  tests are in 'tests/override_substitution.rs' (grouped_overrides):
+  the two functions whose names begin 'deleting_the_users_fork' and
+  'a_deleted_overrider', and the last block of
+  'extraction_honors_overridesHere', which pins the subscribee case.

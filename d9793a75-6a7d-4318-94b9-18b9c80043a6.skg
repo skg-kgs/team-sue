@@ -1,0 +1,22 @@
+title: What I am unsure of, and what surprised me.
+pid: d9793a75-6a7d-4318-94b9-18b9c80043a6
+body: |2-
+  Unsure: whether Jeff wants the rule everywhere. I built it so first,
+  under his own notes and in subscribee folders too, and the reviewer
+  pointed out that it changed what deleting a filed reply's fork does in
+  his own mailbox (it used to dismiss the message as well), which the
+  mission said to stop on; so I narrowed it to another's note, where the
+  old reading could only fork. The question is under "the taking back
+  of a fork as built".
+  Not tested, found by the second reviewer: a save that deletes the
+  drawn fork and also edits the other's note, which forks it, now makes
+  a clone that keeps the message and hides nothing; before, the clone
+  left the message out and hid it. That fits the rule, but no test pins
+  it. And where the other's note is itself drawn under a subscriber of
+  the user's, as an unread member, the deletion counts as writing in
+  it, so the note is filed and its headline moves, as it did before.
+  Surprised: deleting the reply first, Ed's workaround, did not help:
+  the childless fork's deletion still asked to fork. And the home note's
+  "reading and writing the graph" says only 'save' and 'commit' refuse
+  '--out-dir', but 'override-perspective' refuses it too; that note is
+  in claude-public, yours to mend.

@@ -1,0 +1,8 @@
+title: 'What taking back a reply takes now: in a view of the sender''s note switched to your perspective, delete your fork of the message and save; nothing is asked, and the message is drawn again as its author wrote it.'
+pid: 63c70a5a-0fcd-4932-8cab-f9161484d731
+body: |2-
+  To delete the reply's own text too, mark it for deletion in the same
+  save; deleting the fork alone leaves the reply in no note. In Jeff's
+  own fork of the note, where a reply files the message, the same
+  deletion never asked anything, and it still dismisses the message as
+  well, as it did before.

@@ -1,0 +1,18 @@
+title: 'For Cleo: the recursive delete cannot take back a fork that holds its original''s children; a client could mark only the owned ones.'
+pid: fd47d81f-c681-4605-b2a2-7e793ec43c5a
+body: |2-
+  Emacs 'C-u C-c <backspace>' and Neovim '<localleader>dR' mark every
+  occurrence below the fork, and a fork's content is the original's
+  children, which are foreign, so the save refuses ("Foreign repos can
+  only be viewed, not modified"). A recursive delete that skipped
+  foreign descendants would take back a fork and the reply under it in
+  one gesture. Not built; the clients are yours.
+  The AI reader's report did not change. It never counts a child
+  marked 'delete' as leaving its parent ('claiming_children_keys' in
+  'tools/skg-for-ai/skg_for_ai.py'), so for the case built it now
+  agrees with the server, where before it predicted no fork and the
+  server asked for one. Two older gaps of the same kind remain, found
+  by the reviewer: deleting an owned child that is no overrider from a
+  foreign parent forks the parent, and deleting an overrider drawn in
+  an owned parent takes the original out of that parent, and the
+  report says neither.

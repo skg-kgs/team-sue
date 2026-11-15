@@ -1,0 +1,9 @@
+title: Removing the fork's headline, without 'delete', still removes the original from the list, and so forks a foreign note.
+pid: a5377b7b-9573-4e9c-b382-fe20619f355c
+body: |2-
+  Why: removing a headline takes its node out of the parent everywhere
+  else, and the drawn fork stands for the original. The AI reader's
+  report already said so before the save ("Fork: 'to Jeff'"). The
+  other way: read a removed overrider as a deletion, or as nothing.
+  Either would make the two gestures one, and leave no way to take
+  the original out of one's own note while one's fork is drawn there.

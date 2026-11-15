@@ -1,0 +1,16 @@
+title: Under one's own note, deleting the fork drawn in the original's place still takes the original out of the note too, as before. A question for Jeff.
+pid: 963e102f-92ce-4593-84e1-ddd013745273
+body: |2-
+  In Jeff's mailbox that is his fork of Top's 'to Jeff', where a reply
+  files the message and his fork of the message is drawn in its place:
+  deleting that fork there both takes the reply back and dismisses the
+  message (the note subscribes, so the message is hidden), as it did
+  before. To keep the message filed, he would delete the fork from a
+  view of the fork itself. The other way, built first and taken out:
+  one rule everywhere, the original kept in whatever list the fork
+  stood in, which is simpler and agrees with how validation already
+  counts such a child; but it changes what that gesture did in his own
+  notes, which the mission said not to do without asking. It needs the
+  user's ownership of the parent in the traversal, now passed in as
+  'IsOwned'; dropping the 'of_another' test in 'content_members' would
+  give the other way.
